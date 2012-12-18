@@ -1,4 +1,6 @@
 {
+    "guid":"",
+    "timestamp":"",
     "cpu": {
         "us": 11,
         "sy": 22,
