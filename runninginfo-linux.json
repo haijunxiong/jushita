@@ -55,20 +55,11 @@
                 "select": "value",
                 "insert": "value",
                 "update": "value",
-                "delete": "value",
-                "replace": "value",
-                "set": "value",
-                "commit": "value",
+                "delete": "value",                
                 "qps": "value",
                 "slow": "value",
                 "slow-time": "value"
-            },
-            "selects": {
-                "full_scan": "value",
-                "full_join": "value",
-                "range": "value",
-                "sort_merge_passes": "value"
-            },
+            },           
             "connections": {
                 "max_connections": "value",
                 "max_connections_used": "value",
