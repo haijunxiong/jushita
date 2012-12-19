@@ -1,13 +1,25 @@
 {
     "hardware": {
-        "cpu": {
-            "name": "Intel E5400",
-            "clock": "2.1G",
-            "core": 2
-        },
-        "memory": "16 GB",
-        "disk": "100 GB",
-        "network": "2 MB"
+        "cpu": [
+            {
+                "name": "Intel E5400",
+                "clock": "2095",
+                "core": 2,
+                "logicalprocessor": 4
+            },
+            {
+                "name": "Intel E5400",
+                "clock": "2095",
+                "core": "2",
+                "logicalprocessor": 4
+            }
+        ],
+        "memory": "16",
+        "disk": [
+            "100",
+            "200"
+        ],
+        "bandwidth": "2"
     },
     "software": {
         "architecture": "bs/cs",
@@ -62,9 +74,5 @@
             "storage": "innodb",
             "storedprocedure": true
         }
-    },
-    "userinfo": {
-        "userid":"user001",
-        "dailyorders": 200
     }
 }
