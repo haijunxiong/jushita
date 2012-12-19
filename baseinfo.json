@@ -26,10 +26,18 @@
         "language": "java/php/dotnet/asp",
         "os": {
             "name": "windows 2003",
-            "partition": {
-                "c": "100GB",
-                "d": "200GB"
-            },
+            "partition": [
+                {
+                    "caption": "c:",
+                    "filesystem": "NTFS",
+                    "size": 100
+                },
+                {
+                    "caption": "d:",
+                    "filesystem": "NTFS",
+                    "size": 200
+                }
+            ],
             "soft": [
                 "iis",
                 "office"
