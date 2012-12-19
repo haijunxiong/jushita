@@ -16,8 +16,16 @@
         ],
         "memory": "16",
         "disk": [
-            "100",
-            "200"
+            {
+                "name": "drive0",
+                "interfacetype": "IDE",
+                "size": 1000
+            },
+            {
+                "name": "drive1",
+                "interfacetype": "IDE",
+                "size": 2000
+            }
         ],
         "bandwidth": "2"
     },
