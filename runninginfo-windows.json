@@ -46,8 +46,8 @@
         "sqlserver": {
             "dataspace": "value",
             "logspace": "value",
-            "batchrequests": "value",
-            "transactions": "value",
+            "qps": "value",
+            "tps": "value",
             "connections": "value",
             "fullscans":"value",
             "targetmemory": "value",
