@@ -12,8 +12,9 @@
         "pages-ps": 128
     },
     "disk": {
-        "Used": 1000,
-        "Use%": "20%",
+        "size": 1000
+        "used": 800,
+        "use": 0.2,
         "readtime": 10,
         "writetime": 20,
         "queue": 2,
