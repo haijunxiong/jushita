@@ -14,6 +14,14 @@
     "disk": {
         "Used": 1000,
         "Use%": "20%",
+        "readtime": 10,
+        "writetime": 20,
+        "queue": 2,
+        "rbps": 20,
+        "wbps": 30,
+        "bps": 50,
+        "rps":1000,
+        "wps":2000,
         "iops": 3000
     },
     "network": {
