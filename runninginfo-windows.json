@@ -45,6 +45,7 @@
             "batchrequests": "value",
             "transactions": "value",
             "connections": "value",
+            "fullscans":"value",
             "targetmemory": "value",
             "totalmemory": "value",
             "cachehitratio": "value"      
