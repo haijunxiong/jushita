@@ -40,18 +40,14 @@
     },
     "database": {
         "sqlserver": {
-            "Data Space": "value",
-            "Log Space": "value",
-            "Index Space": "value",
-            "Index Num": "value",
-            "Slow Sql Num": "value",
-            "User Connections": "value",
-            "Page Splits/sec": "value",
-            "Buffer Cache Hit Ratio": "value",
-            "Target Server Memory (KB)": "value",
-            "Total Server Memory (KB)": "value",
-            "Transactions/sec": "value",
-            "Batch Requests/Sec": "value"
+            "dataspace": "value",
+            "logspace": "value",
+            "batchrequests": "value",
+            "transactions": "value",
+            "connections": "value",
+            "targetmemory": "value",
+            "totalmemory": "value",
+            "cachehitratio": "value"      
         }
     }
 }
