@@ -15,7 +15,7 @@
         "iops": 3000
     },
     "network": {
-        "BPS": 100000
+        "bps": 100000
     },
     "process": [
         {
@@ -35,7 +35,9 @@
     ],
     "webserver": {
         "iis": {
-            "connection": 100
+            "bps": 100,
+            "rps": 200,
+            "connections":300
         }
     },
     "database": {
