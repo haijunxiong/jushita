@@ -31,15 +31,15 @@
     "process": [
         {
             "pid": 111,
-            "%cpu": 10,
-            "%mem": 22,
+            "cpu": 10,
+            "mem": 22,
             "time": "0:00:09",
             "command": "top"
         },
         {
             "pid": 112,
-            "%cpu": 10,
-            "%mem": 22,
+            "cpu": 10,
+            "mem": 22,
             "time": "0:00:09",
             "command": "init"
         }
