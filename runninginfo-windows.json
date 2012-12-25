@@ -33,15 +33,15 @@
             "pid": 111,
             "cpu": 10,
             "mem": 22,
-            "time": "0:00:09",
-            "command": "top"
+            "name": "explorer.exe",
+            "command": "C:\Windows\Explorer.EXE"
         },
         {
             "pid": 112,
             "cpu": 10,
             "mem": 22,
-            "time": "0:00:09",
-            "command": "init"
+            "name": "explorer.exe",
+            "command": "C:\Windows\Explorer.EXE"
         }
     ],
     "webserver": {
