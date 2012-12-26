@@ -1,6 +1,7 @@
 {
     "guid":"",
     "timestamp":"",
+    "machineid":"",
     "cpu": {
         "us": 11,
         "sy": 22,
