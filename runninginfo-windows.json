@@ -1,6 +1,7 @@
 {
     "infoid":"aaa",
     "machineid":"bbb",
+    "appkey":"key",
     "timestamp":"20121224112233",
     "cpu": {
         "us": 11,
