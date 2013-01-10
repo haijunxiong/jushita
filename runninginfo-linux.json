@@ -8,40 +8,49 @@
         "sy": 22,
         "id": 90,
         "wa": 0,
+        "hiq": 0,
+        "siq": 0,
         "r": 2,
+        "b": 2,
         "load1": 0.02,
         "load5": 0.03,
         "load15": 0
     },
     "memory": {
-        "free": 1212048
+        "memfree": 844.87, 
+        "memused": 61.29,
+        "memtotal": 1005.85,
+        "buffers": 13.00, 
+        "cached": 86.05, 
     },
+
     "swap": {
-        "si": 0,
-        "so": 0
+        "pswpin": 0,
+        "pswpout": 0
     },
     "disk": {
-        "used": 1000,
-        "use": "20%",
-        "iops": 3000
+        "used": 2000,
+        "free": 8000,
+        "read": 30,
+        "writ": 30,
+        "use": "20%"
     },
     "network": {
-        "bps": 100000
+        "recv": 100000,
+        "send": 100
     },
     "process": [
         {
             "pid": 111,
             "cpu": 10,
             "mem": 22,
-            "time": "0:00:09",
-            "command": "top"
+            "name": "top"
         },
         {
             "pid": 112,
             "cpu": 10,
             "mem": 22,
-            "time": "0:00:09",
-            "command": "init"
+            "name": "init"
         }
     ],
     "webserver": {
@@ -51,25 +60,22 @@
     },
     "database": {
         "mysql": {
-            "dataspace": "value",
-            "logspace": "value",
-            "indexspace": "value",
-            "indexnum": "value",     
+            "dataspace": "value",    
             "dml": {
                 "select": "value",
                 "insert": "value",
                 "update": "value",
                 "delete": "value",                
                 "qps": "value",
-                "slow": "value",
-                "slow-time": "value"
+                "slow": "value"
             },           
             "connections": {
                 "max_connections": "value",
-                "max_connections_used": "value",
+                "max_used_connections": "value",
                 "connections": "value",
                 "aborted": "value"
             }
         }
     }
 }
+
